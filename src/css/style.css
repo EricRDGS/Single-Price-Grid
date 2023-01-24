@@ -14,6 +14,7 @@
     grid: "join-community join-community" 220px  
                          "monthly why" auto / auto;
     border-radius: 4px;
+    box-shadow: 1px 1px 4px var(--neutral-grayish), -1px 1px 4px var(--neutral-grayish);
 }
 
 .main .section .secao-join-community{
@@ -26,18 +27,18 @@
 .main .section .secao-join-community .join-community{
     font-weight: 700;
     color: var(--primary-back1);
-    margin: 20px;
+    margin: 20px 30px;
 }
 
 .main .section .secao-join-community .days{
     font-weight: 700;
     color: var(--primary-bright);
-    margin: 20px 20px 10px;
+    margin: 20px 30px 10px;
 }
 
 .main .section .secao-join-community .text{
     font-weight: 400;
-    margin-left: 20px;
+    margin-left: 30px;
     line-height: 20px;
     color: var(--neutral-grayish);
 }
