@@ -1,0 +1,8 @@
+:root{
+    --primary-back1: hsl(179, 84%, 43%);
+    --primary-back: hsl(179, 62%, 43%);
+    --primary-bright: hsl(71, 73%, 54%);
+
+    --neutral-light: hsl(204, 43%, 93%);
+    --neutral-grayish: hsl(218, 22%, 67%);
+}

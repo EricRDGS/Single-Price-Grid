@@ -1,0 +1,57 @@
+.main{
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--neutral-light);
+}
+
+.main .section{
+    display: grid;
+    grid: "join-community join-community" 220px  
+                         "monthly why" auto / auto;
+    border-radius: 4px;
+}
+
+.main .section .secao-join-community{
+    grid-area: join-community;
+    background-color: #fff;
+    width: 635px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.main .section .secao-join-community .join-community{
+    font-weight: 700;
+    color: var(--primary-back1);
+    margin: 20px;
+}
+
+.main .section .secao-join-community .days{
+    font-weight: 700;
+    color: var(--primary-bright);
+    margin: 20px 20px 10px;
+}
+
+.main .section .secao-join-community .text{
+    font-weight: 400;
+    margin-left: 20px;
+    line-height: 20px;
+    color: var(--neutral-grayish);
+}
+
+.main .section .secao-subscrition, .secao-why{
+    width: 318px;
+}
+
+.main .section .secao-subscrition{
+    grid-area: monthly;  
+    background-color: var(--primary-back);
+}
+
+.main .section .secao-why{
+    grid-area: why;
+    background-color: var(--primary-back1);
+}
