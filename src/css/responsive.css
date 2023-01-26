@@ -1,0 +1,32 @@
+@media(max-width: 635px){
+    *{
+        overflow-x: hidden;
+    }
+
+    .main{
+        height: 140vh;
+    }
+
+    .main .section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .section .secao-join-community{
+        width: 350px;
+    }
+
+    .main .section .secao-join-community .text{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .main .section .secao-subscrition, .secao-why{
+        width: 350px;
+    }
+
+    .main .section .secao-subscrition .btn{
+        width: 300px;
+        margin: 0 25px 30px;
+    }
+}
