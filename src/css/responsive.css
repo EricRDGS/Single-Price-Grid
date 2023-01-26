@@ -3,10 +3,6 @@
         overflow-x: hidden;
     }
 
-    .main{
-        height: 140vh;
-    }
-
     .main .section{
         display: flex;
         flex-direction: column;
