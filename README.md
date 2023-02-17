@@ -40,7 +40,7 @@ Users should be able to:
 
 ### 🔗 Links
 
-- Live Site URL: [Access Website](https://ericrdgs.github.io/Project-Landing-Page-Quest-001/)
+- Live Site URL: [Access Website](https://ericrdgs.github.io/Single-Price-Grid/)
 
 ## 📊 My process
 
